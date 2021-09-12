@@ -1,5 +1,5 @@
 # News-App
-#### This is a News-Rview App, 12/09/2021
+#### This is a News-Review App, 12/09/2021
 #### By **SHALIN RONO**
 ## Description
 This is a NewsApp website that enables the user to get latest news and even enable the user to visit different news websites. This news app gives the user a variety of news including sports tech and moreso the top Headlines.
