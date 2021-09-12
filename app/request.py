@@ -9,11 +9,10 @@ source_url= None
 cat_url= None
 
 def configure_request(app):
-    global api_key, source_url, cat_url
+    global api_key, source_url
     api_key = app.config['NEWS_API_KEY']
     source_url= app.config['NEWS_API_SOURCE_URL']
-    cat_url=app.config['CAT_API_URL']
-
+   
 
 def get_source():
     '''
@@ -54,7 +53,7 @@ def process_results(source_list):
     return source_results
 
 def article_source(id):
-    article_source_url = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'.format(id,api_key)
+    article_source_url = ' https://newsapi.org/v2/top-headlines/sources?apiKey={}'.format(id,api_key)
     print(article_source_url)
     with urllib.request.urlopen(article_source_url) as url:
         article_source_data = url.read()
