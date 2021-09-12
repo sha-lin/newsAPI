@@ -2,13 +2,13 @@
 #### This is a News-Rview App, 12/09/2021
 #### By **SHALIN RONO**
 ## Description
-This is a git hub search engine that enables a user to see first my profile and be able to search for other github users and be able to see their repositories and number of followers and following and be able to see the whole profile of that person.
+This is a NewsApp website that enables the user to get latest news and even enable the user to visit different news websites. This news app gives the user a variety of news including sports tech and moreso the top Headlines.
 ## Setup/Installation Requirements
 * Have a browser(Google Chrome)
 
 * Have visual Studio Code
 
-* Search using the form at the top
+* visit your desired news websites using the provided links
 
 * If you want to clone this project, got to this link  https://hardcore-albattani-e886d0.netlify.app/. Paste this url link to your Visual Studio Code and on your terminal , type : git clone(paste URL)
 
