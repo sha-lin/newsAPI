@@ -5,7 +5,7 @@
 <body>
   <br>
   <br>
-  <h1 align="center" class="text-uppercase">{{cat}} NEWS HEADLINES</h3>
+  <h1 align-items="center" class="text-uppercase">{{cat}} NEWS HEADLINES</h3>
     <div class="container">
       <div class="card-columns">
         {% for category in category %}
@@ -16,11 +16,11 @@
             <h5 class="card-title">{{category.author}}</h5>
             <p class="card-text">{{category.description}}</p>
             <a href="{{category.url}}">
-              <p class="card-text">Click here for more details!</p>
+              <p class="card-text">Follow for more News</p>
             </a>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Publish date:{{category.time}}</small>
+            <small class="text-danger">Publish date:{{category.time}}</small>
           </div>
         </div>
         {% endfor %}
