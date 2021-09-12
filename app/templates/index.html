@@ -18,7 +18,6 @@
         </div>
 
         <div class="col-7">
-          <h1 align-items="justify"> BREAKING NEWS </h3>
           <div class="container">
             <div class="card-columns">
               {% for headlines in headlines %}
@@ -32,10 +31,6 @@
                     <p class="card-text">See more details here</p>
                   </a>
                 </div>
-                <div class="card-footer">
-                  <small class="text-danger">Publish date:{{headlines.time}}</small>
-                </div>
-              </div>
               {% endfor %}
             </div>
           </div>
