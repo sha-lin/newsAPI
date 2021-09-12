@@ -10,19 +10,17 @@ This is a NewsApp website that enables the user to get latest news and even enab
 
 * visit your desired news websites using the provided links
 
-* If you want to clone this project, got to this link  https://hardcore-albattani-e886d0.netlify.app/. Paste this url link to your Visual Studio Code and on your terminal , type : git clone(paste URL)
+* If you want to clone this project, got to this link https://github.com/sha-lin/newsAPI. Paste this url link to your Visual Studio Code and on your terminal , type : git clone(paste URL) on your desired space(Desktop or Documents)
 
 
 ## Known Bugs
 There are no known bugs at the moment.
 ## Technologies Used
-Angular CLI
+Python3.8
 
-TypeScript
+Flask
 
-HTML 5
-
-CSS
+Bootstrap.Flask-bootstrap
 
 ## Support and contact details
 In case of any issues or questions, feel free to contact me using: 
